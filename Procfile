@@ -1,0 +1,1 @@
+web:gunicorn octis-django-blog.wsgi
