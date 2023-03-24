@@ -1,4 +1,6 @@
 from django.db import models
+from jinja2 import PackageLoader, Environment 
+from django.utils import translation
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 # Create your models here.
